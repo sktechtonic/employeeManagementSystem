@@ -1,0 +1,47 @@
+/* employee.css */
+
+/* Styling for table rows */
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /* Modal Form Inputs */
+  .modal-body input, .modal-body select {
+    margin-bottom: 10px;
+  }
+  
+  /* Button Styles */
+  .btn {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  
+  /* Custom Styles for Modal */
+  .modal-content {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  /* Styling for the main content */
+  .container {
+    max-width: 900px;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  .search-bar input {
+    width: 300px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .table th, .table td {
+      font-size: 12px;
+    }
+  }
+  
